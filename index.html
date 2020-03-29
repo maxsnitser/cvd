@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>COVID-19 Stats by Date and Tips How To Stay Safe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="author" content="Max Snitser">
+	<meta name="description" content="An indie project on COVID-19 pandemic, stats, tips, and collection of useful content">
+	<meta name="twitter:image:src" content="http://cvd.maxsnitser.com/cvd-cover.png">
+	<meta property="og:image" content="http://cvd.maxsnitser.com/cvd-cover.png">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css' rel='stylesheet' />
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,500,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71690694-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-71690694-1');
+	</script>
+</head>
+<body>
+	<header>
+		<h1>COVID-19 <span>info</span></h1>
+		<a href="javascript:void(0);" id="todo">How To Stay Safe</a>
+		<!-- <nav>
+			<ul>
+				<li>Link</li>
+				<li>Link</li>
+				<li>Link</li>
+			</ul>
+		</nav> -->
+	</header>
+	<div class="slider-name">Stats by date</div>
+	<div class="date-label"></div>
+	<div id="slider">
+		<div id="custom-handle" class="ui-slider-handle"></div>
+	</div>
+	<section class="list-map">
+		<div class="data-list"></div>
+		<div id='map'></div>
+	</section>
+	<section class="map-data-source">Data source: https://github.com/pomber/covid19 and Johns Hopkins CSSE.</section>
+	<section class="todo">
+		<h2>How To Stay Safe</h2>
+		<div class="todo-cards">
+			<div class="todo-card medium">
+				<span class="icon-hand-wash"></span>
+				<h3>Wash your hands</h3>
+				<p>Use a soap. Do it ofthen and at least for 20 seconds.</p>
+			</div>
+			<div class="todo-card medium red">
+				<span class="icon-face-touch"></span>
+				<h3>Avoid touching your face</h3>
+				<p>Viruses enter your body through your mouth, eyes, and nose.</p>
+			</div>
+			<div class="todo-card medium">
+				<span class="icon-wipe"></span>
+				<h3>Clean everything, especially high-touch surfaces</h3>
+				<p>Use alcohol gel or an effective disinfectant.</p>
+			</div>
+
+			<div class="todo-card large red">
+				<span class="icon-crowd"></span>
+				<h3>Avoid crowds, transport, parties and bars</h3>
+				<p>They'll be there later.</p>
+			</div>
+			
+			<div class="todo-card large">
+				<span class="icon-home-delivery"></span>
+				<h3>Use delivery services if possible</h3>
+				<p>Order groceries and other necessities online to avoid public places.</p>
+			</div>
+
+			
+			<div class="todo-card small">
+				<span class="icon-stay-home"></span>
+				<h3>Stay at home</h3>
+				<p>Even if healthy – especially if you feel sick.</p>
+			</div>
+			<div class="todo-card medium red">
+				<span class="icon-cancel-travel"></span>
+				<h3>Cancel travel plans for now</h3>
+				<p>It's a small price to save lives.</p>
+			</div>
+
+			<div class="todo-card medium">
+				<span class="icon-work-home"></span>
+				<h3>Work remotely if possible</h3>
+				<p>Avoid making colleagues spreads as well.</p>
+			</div>
+			<div class="todo-card large">
+				<span class="icon-thermometer"></span>
+				<h3>Monitor your own health</h3>
+				<p>Call a doctor if you have a temperature at or above 38°C (100.4°F).</p>
+			</div>
+			<div class="todo-card medium">
+				<span class="icon-cover-mouth"></span>
+				<h3>Cover your face when you cough or sneeze</h3>
+				<p>Simple but effective.</p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Stay Healthy &amp; Share With Friends ;)</h2>
+		<div class="share">
+			<div class="share-twitter">
+				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			<div class="share-facebook">
+				<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fcvd.maxsnitser.com&layout=button&size=large&appId=149630748738335&width=77&height=28" width="77" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			</div>
+			<div class="share-pinterest">
+				<a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fcvd.maxsnitser.com&media=http%3A%2F%2Fcvd.maxsnitser.com%2Fcvd-pin.jpg&description=COVID-19%20Stats%20by%20Date%20and%20Tips%20How%20To%20Stay%20Safe"></a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		&copy;2020. Made by <a href="https://maxsnitser.com" target="_blank">Max Snitser</a>.
+	</footer>
+
+	<script>	
+
+	countries = {};
+
+	$.ajax({
+		dataType: "json",
+		url: "countries.json",
+		async: false, 
+		success: function(country) {
+			for(let name in country){
+				countries[name] = { 
+					code: country[name].code, 
+					flag: country[name].flag,
+					latitude: country[name].latitude,
+					longitude: country[name].longitude
+				};
+			}
+		}
+	});
+
+
+	// Returns an array of dates between the two dates
+	var getDates = function(startDate, endDate) {
+	  var dates = [],
+	      currentDate = startDate,
+	      addDays = function(days) {
+	        var date = new Date(this.valueOf());
+	        date.setDate(date.getDate() + days);
+	        return date;
+	      };
+	  while (currentDate <= endDate) {
+
+	    dates.push(currentDate);
+	    currentDate = addDays.call(currentDate, 1);
+	  }
+	  return dates;
+	};
+
+	// Usage
+	now = new Date();
+	today = now.getDate();
+	end_date = new Date();
+	end_date.setDate(today);
+
+	var dates = getDates(new Date(2020,0,22), new Date(end_date));                                                             
+	dates_arr = [];                                              
+	dates.forEach(function(date) {
+		dates_arr.push(date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate())
+	  	$('select[name=date]').append('<option>'+date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()+'</option>')
+	});
+
+
+	// Check local data
+	// $.ajax({
+	//    type: "POST",
+	//    url: "process.php?check",
+	//    success: function(res){
+	//      console.log(res);
+	//    }
+	// });
+
+
+	// COPY STATS TO LOCAL FOLDER EVERYDAY
+	by_dates = {};
+	$.ajax({
+		dataType: "json",
+		url: "https://pomber.github.io/covid19/timeseries.json",
+		async: false, 
+		success: function(data) {
+			console.log(data);
+			// Save data locally
+			// myjson = JSON.stringify(data);
+			// $.ajax({
+			//    type: "POST",
+			//    data: {data:myjson},
+			//    url: "process.php?save",
+			//    success: function(res){
+			//      console.log(res);
+			//    }
+			// });
+
+			let total_days = 0;
+			for(let key in data['Albania']){
+				//latest_day = data['Albania'][key]['date'];
+				total_days++;
+			}
+			//console.log(days_counter);
+			for(let i=0; i<total_days; i++){ //date
+			 	//arr_data = [];
+			 	countries_list = {};
+			 	for (let key in data) { //countries
+			 		for(let name in countries){
+			 			if(key == name){
+			 				longitude = countries[name].longitude;
+		 					latitude = countries[name].latitude;
+		 					country_code = countries[name].code;
+			 			}
+			 		}
+			 		
+			 		if(data[key][i]['date'] != null && data[key][i]['date'] == dates_arr[i]){
+			 			countries_list[key] = {
+			 				longitude: longitude,
+			 				latitude: latitude,
+			 				confirmed: data[key][i]["confirmed"],
+			 				deaths: data[key][i]["deaths"],
+			 				recovered: data[key][i]["recovered"],
+			 				country_code
+			 			};
+			 		}
+			 	}
+
+			 	by_dates[dates_arr[i]] = {countries_list};
+			 }
+			
+		}
+	});
+
+//	console.log(by_dates);
+
+	function generateFeature(country, cases, longtitude, latitude){
+		let feature = `{
+			"type": "Feature",
+				"properties": {
+					"message": "${cases}",
+					"country": "${country}"
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [${longtitude}, ${latitude}]
+				}
+		}`;
+		return feature;
+	}
+
+	function getGeoJSON(chosen_date){
+		let features = '';
+		let i = 0;
+		for(let key in by_dates[chosen_date]['countries_list']){
+		 	country = by_dates[chosen_date]['countries_list'][key]['country_code'];
+		 	longitude = by_dates[chosen_date]['countries_list'][key]['longitude'];
+		 	latitude = by_dates[chosen_date]['countries_list'][key]['latitude'];
+		 	confirmed = by_dates[chosen_date]['countries_list'][key]['confirmed'];
+		 	if(longitude != null && latitude != null){
+		 		features += generateFeature(country, confirmed, longitude, latitude);
+		 		if(i<174) features += ',';
+		 	}
+		 	i++;
+		 	
+		}
+		features = features.slice(0, -1);
+
+		let dynamic_geojson = `{ 
+			"type": "FeatureCollection",
+			"features": [
+				${features}
+			]
+
+		}`;
+		return dynamic_geojson;
+	}
+
+	
+
+	function prioritize(marker) {
+		confirmed = marker.attr('data-confirmed');
+		if(confirmed == 0){
+			marker.hide();
+		}else{
+			marker.show();
+			if(confirmed < 20){
+				marker.attr('data-color','green');
+			}
+			if(confirmed > 19 && confirmed < 100){
+				marker.attr('data-color','yellow');
+			}
+			if(confirmed > 99 && confirmed < 1000){
+				marker.attr('data-color','orange');
+			}
+			if(confirmed > 999){
+				marker.attr('data-color','red');
+			}
+		}
+	}
+
+	function getLatestStatsDate() {
+		let latest_date;
+		for(let key in by_dates) {
+			latest_date = key;
+		}
+		return latest_date;
+	}
+
+	function addMarkersToMap(){
+		let now = new Date();
+		let year = now.getFullYear();
+		let month = now.getMonth();
+		let day = now.getDate();
+		let chosen_date = year + '-' + (month+1) + '-' + (day-1);
+		obj = JSON.parse(getGeoJSON(getLatestStatsDate()));
+	 
+		// add markers to map
+		obj.features.forEach(function(marker) {
+			// create a DOM element for the marker
+			var el = document.createElement('div');
+			$(el).addClass('marker');
+			country_name = marker.properties.country;//.replace('  ','').replace(' ','-').toLowerCase();
+			$(el).attr('data-country',country_name);
+
+			confirmed = marker.properties.message;
+			//console.log(confirmed);
+			if(confirmed == 0){
+				$(el).hide();
+			}else{
+				if(confirmed < 20){
+					$(el).attr('data-color','green');
+				}
+				if(confirmed > 19 && confirmed < 100){
+					$(el).attr('data-color','yellow');
+				}
+				if(confirmed > 99 && confirmed < 1000){
+					$(el).attr('data-color','orange');
+				}
+				if(confirmed > 999){
+					$(el).attr('data-color','red');
+				}
+			}
+
+			$(el).html('<span>' + marker.properties.message + '</span>');
+			 
+			el.addEventListener('click', function() {
+			window.alert(marker.properties.message);
+		});
+
+		// add marker to map
+		new mapboxgl.Marker(el)
+			.setLngLat(marker.geometry.coordinates)
+			.addTo(map);
+		});
+
+	}
+
+	function updateMarkers(chosen_date){
+		obj = JSON.parse(getGeoJSON(chosen_date));
+		for(key in obj.features){
+			property = obj.features[key].properties;
+			if(property.country != ''){
+				$('.marker[data-country='+property.country+'] span').html(property.message);
+				$('.marker[data-country='+property.country+']').attr('data-confirmed',property.message);
+			}
+		}
+		$('.marker').each(function(){
+			prioritize($(this));
+		});
+	}
+
+
+	function beautifyDate(chose_date) {
+		const mm = [null,'Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+		if(chosen_date != null){
+			day = chosen_date.split('-');	
+			return mm[day[1]] + ' ' + day[2] + ', ' + day[0];
+		}
+	}
+
+	mapboxgl.accessToken = 'pk.eyJ1IjoibWF4c25pdHNlciIsImEiOiJjazg4amRxcm0wNHoyM2RuMGx0N3RyYWc5In0.rw9CrILL_l2m8IBvdsfMNA';
+	var map = new mapboxgl.Map({
+		container: 'map',
+		style: 'mapbox://styles/mapbox/streets-v11',
+		center: [0,12],
+		zoom: 1.6
+	});
+
+	$('.marker').css('transform', 'scale(5)');
+
+	map.on('moveend', function (e) { 
+		if($('.marker').length){
+			// if(map.getZoom()< 1.8) {
+			// 	$('.marker span').hide();
+			// }else{
+			// 	$('.marker span').show();
+			// }
+			let width = map.getZoom()*10 + 'px';
+			let height = map.getZoom()*10 + 'px';
+			$('.marker').css({
+				'min-width': width,
+				'height': height
+			});
+			$('.marker span').css({
+				'font-size': map.getZoom()*5+'px', 
+				'line-height': height
+			});
+
+			//$('.marker').css('height',map.getZoom()*10);
+			// $('.marker').css('transform','scale(' + (map.getZoom()*10) + ')');
+			//$('.marker').css('font-size',map.getZoom()*4);	
+		}
+	});
+	addMarkersToMap();	
+
+	$(document).ready(function(){
+
+		$('#todo').click(function(){
+			$([document.documentElement, document.body]).animate({
+				scrollTop: ($('section.todo').offset().top - 50)
+			},500);
+		});
+
+		today = end_date.getFullYear()+'-'+(end_date.getMonth()+1)+'-'+(end_date.getDate()-1);
+	
+		// info = {
+		// 	name: 'hi',
+		// 	property: 'hello'
+		// };
+		// //info[0] = 'hi';
+		// //info[1] = 'hello'
+		// $.ajax({
+		//    type: "POST",
+		//    data: {info},
+		//    url: "process.php",
+		//    success: function(res){
+		//      console.log(JSON.parse(res));
+		//    }
+		// });
+			
+
+		$(function() {
+		    var handle = $( "#custom-handle" );
+		    handle.show();
+		    $( "#slider" ).slider({
+		    	value: 100,
+		    	max: dates_arr.length,
+		      	create: function() {
+		        	chosen_date = dates_arr[dates_arr.length-1];
+		        	$('.date-label').html(beautifyDate(chosen_date));
+		        	$('.date-label').attr('data-date', chosen_date);
+		      	},
+		      	slide: function( event, ui ) {;
+			        chosen_date = dates_arr[ui.value];
+			        $('.date-label').html(beautifyDate(chosen_date));
+			        $('.date-label').attr('data-date', chosen_date);
+			        if(chosen_date <= today){
+			        	updateMarkers(dates_arr[ui.value]);
+			        }
+		      	},
+				// stop: function(event, ui){
+				// 	generateCasesData();
+				//   updateMarkers();
+				// }
+		    });
+		});
+
+	});
+
+
+
+</script>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<!-- Hotjar Tracking Code for maxsnitser.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1309512,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</body>
+</html>

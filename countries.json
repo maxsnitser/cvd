@@ -1,0 +1,1515 @@
+{
+  "Andorra": {
+    "flag": "🇦🇩",
+    "code": "AD",
+    "latitude": "42.54057088",
+    "longitude": "1.55201340"
+  },
+  "United Arab Emirates": {
+    "flag": "🇦🇪",
+    "code": "AE",
+    "latitude": "24.64324405",
+    "longitude": "53.62261227"
+  },
+  "Afghanistan": {
+    "flag": "🇦🇫",
+    "code": "AF",
+    "latitude": "33.98299275",
+    "longitude": "66.39159363"
+  },
+  "Antigua and Barbuda": {
+    "flag": "🇦🇬",
+    "code": "AG",
+    "latitude": "17.48060423",
+    "longitude": "-61.42014426"
+  },
+  "Anguilla": {
+    "flag": "🇦🇮",
+    "code": "AI",
+    "latitude": "18.22053521",
+    "longitude": "-63.06861300"
+  },
+  "Albania": {
+    "flag": "🇦🇱",
+    "code": "AL",
+    "latitude": "41.00017358",
+    "longitude": "19.87170014"
+  },
+  "Armenia": {
+    "flag": "🇦🇲",
+    "code": "AM",
+    "latitude": "40.13475528",
+    "longitude": "45.01072318"
+  },
+  "Angola": {
+    "flag": "🇦🇴",
+    "code": "AO",
+    "latitude": "-12.16469683",
+    "longitude": "16.70933622"
+  },
+  "Antarctica": {
+    "flag": "🇦🇶",
+    "code": "AQ",
+    "latitude": "-45.13806295",
+    "longitude": "10.48095703"
+  },
+  "Argentina": {
+    "flag": "🇦🇷",
+    "code": "AR",
+    "latitude": "-38.01529308",
+    "longitude": "-64.97897469"
+  },
+  "American Samoa": {
+    "flag": "🇦🇸",
+    "code": "AS",
+    "latitude": "-14.30634641",
+    "longitude": "-170.69501750"
+  },
+  "Austria": {
+    "flag": "🇦🇹",
+    "code": "AT",
+    "latitude": "47.63125476",
+    "longitude": "13.18776731"
+  },
+  "Australia": {
+    "flag": "🇦🇺",
+    "code": "AU",
+    "latitude": "-26.29594646",
+    "longitude": "133.55540944"
+  },
+  "Aruba": {
+    "flag": "🇦🇼",
+    "code": "AW",
+    "latitude": "12.52109661",
+    "longitude": "-69.96833800"
+  },
+  "Åland Islands": {
+    "flag": "🇦🇽",
+    "code": "AX",
+    "latitude": "60.25403213",
+    "longitude": "20.35918350"
+  },
+  "Azerbaijan": {
+    "flag": "🇦🇿",
+    "code": "AZ",
+    "latitude": "40.35321757",
+    "longitude": "47.46706372"
+  },
+  "Bosnia and Herzegovina": {
+    "flag": "🇧🇦",
+    "code": "BA",
+    "latitude": "44.00040856",
+    "longitude": "17.81640910"
+  },
+  "Barbados": {
+    "flag": "🇧🇧",
+    "code": "BB",
+    "latitude": "13.19383077",
+    "longitude": "-59.54319600"
+  },
+  "Bangladesh": {
+    "flag": "🇧🇩",
+    "code": "BD",
+    "latitude": "24.08273251",
+    "longitude": "90.49915527"
+  },
+  "Belgium": {
+    "flag": "🇧🇪",
+    "code": "BE",
+    "latitude": "50.49593874",
+    "longitude": "4.46993600"
+  },
+  "Burkina Faso": {
+    "flag": "🇧🇫",
+    "code": "BF",
+    "latitude": "12.22492458",
+    "longitude": "-1.56159100"
+  },
+  "Bulgaria": {
+    "flag": "🇧🇬",
+    "code": "BG",
+    "latitude": "42.70160678",
+    "longitude": "25.48583200"
+  },
+  "Bahrain": {
+    "flag": "🇧🇭",
+    "code": "BH",
+    "latitude": "25.90740996",
+    "longitude": "50.65932354"
+  },
+  "Burundi": {
+    "flag": "🇧🇮",
+    "code": "BI",
+    "latitude": "-3.40499707",
+    "longitude": "29.88592902"
+  },
+  "Benin": {
+    "flag": "🇧🇯",
+    "code": "BJ",
+    "latitude": "9.37180859",
+    "longitude": "2.29386134"
+  },
+  "Saint Barthélemy": {
+    "flag": "🇧🇱",
+    "code": "BL",
+    "latitude": "17.90042417",
+    "longitude": "-62.83376215"
+  },
+  "Bermuda": {
+    "flag": "🇧🇲",
+    "code": "BM",
+    "latitude": "32.31995785",
+    "longitude": "-64.76182765"
+  },
+  "Brunei": {
+    "flag": "🇧🇳",
+    "code": "BN",
+    "latitude": "4.54189364",
+    "longitude": "114.60132823"
+  },
+  "Bolivia": {
+    "flag": "🇧🇴",
+    "code": "BO",
+    "latitude": "-16.74518128",
+    "longitude": "-65.19265691"
+  },
+  "Bonaire, Sint Eustatius and Saba": {
+    "flag": "🇧🇶",
+    "code": "BQ",
+    "latitude": "12.17229702",
+    "longitude": "-68.28831170"
+  },
+  "Brazil": {
+    "flag": "🇧🇷",
+    "code": "BR",
+    "latitude": "-11.80965046",
+    "longitude": "-53.33152600"
+  },
+  "Bahamas": {
+    "flag": "🇧🇸",
+    "code": "BS",
+    "latitude": "24.45991732",
+    "longitude": "-77.68192453"
+  },
+  "Bhutan": {
+    "flag": "🇧🇹",
+    "code": "BT",
+    "latitude": "27.50752756",
+    "longitude": "90.43360300"
+  },
+  "Bouvet Island": {
+    "flag": "🇧🇻",
+    "code": "BV",
+    "latitude": "-54.42316906",
+    "longitude": "3.41319600"
+  },
+  "Botswana": {
+    "flag": "🇧🇼",
+    "code": "BW",
+    "latitude": "-22.18279485",
+    "longitude": "24.22344422"
+  },
+  "Belarus": {
+    "flag": "🇧🇾",
+    "code": "BY",
+    "latitude": "53.58628747",
+    "longitude": "27.95338900"
+  },
+  "Belize": {
+    "flag": "🇧🇿",
+    "code": "BZ",
+    "latitude": "17.21153631",
+    "longitude": "-88.01424956"
+  },
+  "Canada": {
+    "flag": "🇨🇦",
+    "code": "CA",
+    "latitude": "60.36196817",
+    "longitude": "-106.69833150"
+  },
+  "Cocos (Keeling) Islands": {
+    "flag": "🇨🇨",
+    "code": "CC",
+    "latitude": "-12.12890685",
+    "longitude": "96.84689104"
+  },
+  "Congo (Kinshasa)": {
+    "flag": "🇨🇩",
+    "code": "CD",
+    "latitude": "-0.68967806",
+    "longitude": "15.69033190"
+  },
+  "Central African Republic": {
+    "flag": "🇨🇫",
+    "code": "CF",
+    "latitude": "6.82541830",
+    "longitude": "20.64281514"
+  },
+  "Congo": {
+    "flag": "🇨🇬",
+    "code": "CG",
+    "latitude": "-0.68967806",
+    "longitude": "15.69033190"
+  },
+  "Switzerland": {
+    "flag": "🇨🇭",
+    "code": "CH",
+    "latitude": "46.81010721",
+    "longitude": "8.22751200"
+  },
+  "Cote d'Ivoire": {
+    "flag": "🇨🇮",
+    "code": "CI",
+    "latitude": "7.59684148",
+    "longitude": "-5.49214636"
+  },
+  "Cook Islands": {
+    "flag": "🇨🇰",
+    "code": "CK",
+    "latitude": "-21.23673066",
+    "longitude": "-159.77766900"
+  },
+  "Chile": {
+    "flag": "🇨🇱",
+    "code": "CL",
+    "latitude": "-38.01760790",
+    "longitude": "-71.40014474"
+  },
+  "Cameroon": {
+    "flag": "🇨🇲",
+    "code": "CM",
+    "latitude": "7.38622543",
+    "longitude": "12.72825915"
+  },
+  "China": {
+    "flag": "🇨🇳",
+    "code": "CN",
+    "latitude": "36.71457440",
+    "longitude": "103.55819197"
+  },
+  "Colombia": {
+    "flag": "🇨🇴",
+    "code": "CO",
+    "latitude": "3.68182320",
+    "longitude": "-73.53927436"
+  },
+  "Costa Rica": {
+    "flag": "🇨🇷",
+    "code": "CR",
+    "latitude": "9.98427463",
+    "longitude": "-84.09949534"
+  },
+  "Cuba": {
+    "flag": "🇨🇺",
+    "code": "CU",
+    "latitude": "21.54513189",
+    "longitude": "-79.00064743"
+  },
+  "Cape Verde": {
+    "flag": "🇨🇻",
+    "code": "CV",
+    "latitude": "15.11988711",
+    "longitude": "-23.60517010"
+  },
+  "Curaçao": {
+    "flag": "🇨🇼",
+    "code": "CW",
+    "latitude": "12.20710309",
+    "longitude": "-69.02160369"
+  },
+  "Christmas Island": {
+    "flag": "🇨🇽",
+    "code": "CX",
+    "latitude": "-10.49170619",
+    "longitude": "105.68083796"
+  },
+  "Cyprus": {
+    "flag": "🇨🇾",
+    "code": "CY",
+    "latitude": "35.12450768",
+    "longitude": "33.42986100"
+  },
+  "Czechia": {
+    "flag": "🇨🇿",
+    "code": "CZ",
+    "latitude": "49.76026136",
+    "longitude": "15.53888197"
+  },
+  "Germany": {
+    "flag": "🇩🇪",
+    "code": "DE",
+    "latitude": "50.82871201",
+    "longitude": "10.97887975"
+  },
+  "Djibouti": {
+    "flag": "🇩🇯",
+    "code": "DJ",
+    "latitude": "11.75959257",
+    "longitude": "42.65344839"
+  },
+  "Denmark": {
+    "flag": "🇩🇰",
+    "code": "DK",
+    "latitude": "54.71794021",
+    "longitude": "9.41938953"
+  },
+  "Dominica": {
+    "flag": "🇩🇲",
+    "code": "DM",
+    "latitude": "15.41473963",
+    "longitude": "-61.37097400"
+  },
+  "Dominican Republic": {
+    "flag": "🇩🇴",
+    "code": "DO",
+    "latitude": "18.73076761",
+    "longitude": "-70.16264900"
+  },
+  "Cruise Ship": {
+    "flag": "🚢",
+    "latitude": "37.51848822",
+    "longitude": "137.67066061"
+  },
+  "Algeria": {
+    "flag": "🇩🇿",
+    "code": "DZ",
+    "latitude": "27.89861690",
+    "longitude": "3.19771194"
+  },
+  "Ecuador": {
+    "flag": "🇪🇨",
+    "code": "EC",
+    "latitude": "-1.22919037",
+    "longitude": "-78.55693916"
+  },
+  "Estonia": {
+    "flag": "🇪🇪",
+    "code": "EE",
+    "latitude": "58.74041141",
+    "longitude": "25.38165099"
+  },
+  "Eswatini": {
+    "flag": "",
+    "code": "",
+    "latitude": "26.30",
+    "longitude": "31.30"
+  },
+  "Egypt": {
+    "flag": "🇪🇬",
+    "code": "EG",
+    "latitude": "26.71650873",
+    "longitude": "30.80250000"
+  },
+  "Western Sahara": {
+    "flag": "🇪🇭",
+    "code": "EH",
+    "latitude": "24.79324356",
+    "longitude": "-13.67683563"
+  },
+  "Eritrea": {
+    "flag": "🇪🇷",
+    "code": "ER",
+    "latitude": "15.21227764",
+    "longitude": "39.61204792"
+  },
+  "Spain": {
+    "flag": "🇪🇸",
+    "code": "ES",
+    "latitude": "39.87299401",
+    "longitude": "-3.67089492"
+  },
+  "Ethiopia": {
+    "flag": "🇪🇹",
+    "code": "ET",
+    "latitude": "9.10727589",
+    "longitude": "39.84148164"
+  },
+  "European Union": {
+    "flag": "🇪🇺",
+    "code": "EU",
+    "latitude": "50.82871201",
+    "longitude": "10.97887975"
+  },
+  "Finland": {
+    "flag": "🇫🇮",
+    "code": "FI",
+    "latitude": "64.69610892",
+    "longitude": "26.36339137"
+  },
+  "Fiji": {
+    "flag": "🇫🇯",
+    "code": "FJ",
+    "latitude": "-17.71219757",
+    "longitude": "178.06503600"
+  },
+  "Falkland Islands (Malvinas)": {
+    "flag": "🇫🇰",
+    "code": "FK",
+    "latitude": "-51.78838251",
+    "longitude": "-59.52361100"
+  },
+  "Micronesia": {
+    "flag": "🇫🇲",
+    "code": "FM",
+    "latitude": "6.88747377",
+    "longitude": "158.21507170"
+  },
+  "Faroe Islands": {
+    "flag": "🇫🇴",
+    "code": "FO",
+    "latitude": "61.88590482",
+    "longitude": "-6.91180400"
+  },
+  "France": {
+    "flag": "🇫🇷",
+    "code": "FR",
+    "latitude": "46.48372145",
+    "longitude": "2.60926281"
+  },
+  "Gabon": {
+    "flag": "🇬🇦",
+    "code": "GA",
+    "latitude": "-0.43426435",
+    "longitude": "11.43916591"
+  },
+  "United Kingdom": {
+    "flag": "🇬🇧",
+    "code": "GB",
+    "latitude": "53.36540813",
+    "longitude": "-2.72184767"
+  },
+  "Grenada": {
+    "flag": "🇬🇩",
+    "code": "GD",
+    "latitude": "12.11644807",
+    "longitude": "-61.67899400"
+  },
+  "Georgia": {
+    "flag": "🇬🇪",
+    "code": "GE",
+    "latitude": "-54.38130284",
+    "longitude": "-36.67305304"
+  },
+  "French Guiana": {
+    "flag": "🇬🇫",
+    "code": "GF",
+    "latitude": "4.01114381",
+    "longitude": "-52.97746057"
+  },
+  "Guernsey": {
+    "flag": "🇬🇬",
+    "code": "GG",
+    "latitude": "49.46565975",
+    "longitude": "-2.58527200"
+  },
+  "Ghana": {
+    "flag": "🇬🇭",
+    "code": "GH",
+    "latitude": "7.69154199",
+    "longitude": "-1.29234904"
+  },
+  "Gibraltar": {
+    "flag": "🇬🇮",
+    "code": "GI",
+    "latitude": "36.14864641",
+    "longitude": "-5.34404779"
+  },
+  "Greenland": {
+    "flag": "🇬🇱",
+    "code": "GL",
+    "latitude": "71.42932629",
+    "longitude": "-34.38651956"
+  },
+  "Gambia": {
+    "flag": "🇬🇲",
+    "code": "GM",
+    "latitude": "13.15921146",
+    "longitude": "-15.35956748"
+  },
+  "Guinea": {
+    "flag": "🇬🇳",
+    "code": "GN",
+    "latitude": "9.94301472",
+    "longitude": "-11.31711839"
+  },
+  "Guadeloupe": {
+    "flag": "🇬🇵",
+    "code": "GP",
+    "latitude": "16.26472785",
+    "longitude": "-61.55099400"
+  },
+  "Equatorial Guinea": {
+    "flag": "🇬🇶",
+    "code": "GQ",
+    "latitude": "1.65068442",
+    "longitude": "10.26789700"
+  },
+  "Greece": {
+    "flag": "🇬🇷",
+    "code": "GR",
+    "latitude": "38.52254746",
+    "longitude": "24.53794505"
+  },  
+  "South Georgia": {
+    "flag": "🇬🇸",
+    "code": "GS",
+    "latitude": "-54.38130284",
+    "longitude": "-36.67305304"
+  },
+  "Guatemala": {
+    "flag": "🇬🇹",
+    "code": "GT",
+    "latitude": "15.72598421",
+    "longitude": "-89.96707712"
+  },
+  "Guam": {
+    "flag": "🇬🇺",
+    "code": "GU",
+    "latitude": "13.44410137",
+    "longitude": "144.80747791"
+  },
+  "Guinea-Bissau": {
+    "flag": "🇬🇼",
+    "code": "GW",
+    "latitude": "11.80050682",
+    "longitude": "-15.18040700"
+  },
+  "Guyana": {
+    "flag": "🇬🇾",
+    "code": "GY",
+    "latitude": "4.47957059",
+    "longitude": "-58.72692293"
+  },
+  "Hong Kong": {
+    "flag": "🇭🇰",
+    "code": "HK",
+    "latitude": "22.33728531",
+    "longitude": "114.14657786"
+  },
+  "Heard Island and Mcdonald Islands": {
+    "flag": "🇭🇲",
+    "code": "HM",
+    "latitude": "-53.08168847",
+    "longitude": "73.50415800"
+  },
+  "Honduras": {
+    "flag": "🇭🇳",
+    "code": "HN",
+    "latitude": "14.64994423",
+    "longitude": "-87.01643713"
+  },
+  "Croatia": {
+    "flag": "🇭🇷",
+    "code": "HR",
+    "latitude": "44.81372482",
+    "longitude": "16.29039507"
+  },
+  "Haiti": {
+    "flag": "🇭🇹",
+    "code": "HT",
+    "latitude": "19.07430861",
+    "longitude": "-72.79607526"
+  },
+  "Hungary": {
+    "flag": "🇭🇺",
+    "code": "HU",
+    "latitude": "46.97670384",
+    "longitude": "19.35499657"
+  },
+  "Indonesia": {
+    "flag": "🇮🇩",
+    "code": "ID",
+    "latitude": "-2.46229680",
+    "longitude": "121.18329789"
+  },
+  "Ireland": {
+    "flag": "🇮🇪",
+    "code": "IE",
+    "latitude": "53.10101628",
+    "longitude": "-8.21092302"
+  },
+  "Israel": {
+    "flag": "🇮🇱",
+    "code": "IL",
+    "latitude": "30.85883075",
+    "longitude": "34.91753797"
+  },
+  "Isle of Man": {
+    "flag": "🇮🇲",
+    "code": "IM",
+    "latitude": "54.23562697",
+    "longitude": "-4.54805400"
+  },
+  "India": {
+    "flag": "🇮🇳",
+    "code": "IN",
+    "latitude": "-7.33461519",
+    "longitude": "72.42425280"
+  },
+  "British Indian Ocean Territory": {
+    "flag": "🇮🇴",
+    "code": "IO",
+    "latitude": "-7.33461519",
+    "longitude": "72.42425280"
+  },
+  "Iraq": {
+    "flag": "🇮🇶",
+    "code": "IQ",
+    "latitude": "32.90170182",
+    "longitude": "43.19590056"
+  },
+  "Iran": {
+    "flag": "🇮🇷",
+    "code": "IR",
+    "latitude": "31.40240324",
+    "longitude": "51.28204814"
+  },
+  "Iceland": {
+    "flag": "🇮🇸",
+    "code": "IS",
+    "latitude": "64.99294495",
+    "longitude": "-18.57038755"
+  },
+  "Italy": {
+    "flag": "🇮🇹",
+    "code": "IT",
+    "latitude": "41.77810840",
+    "longitude": "12.67725128"
+  },
+  "Jersey": {
+    "flag": "🇯🇪",
+    "code": "JE",
+    "latitude": "49.21440771",
+    "longitude": "-2.13124600"
+  },
+  "Jamaica": {
+    "flag": "🇯🇲",
+    "code": "JM",
+    "latitude": "18.10838487",
+    "longitude": "-77.29750600"
+  },
+  "Jordan": {
+    "flag": "🇯🇴",
+    "code": "JO",
+    "latitude": "31.31616588",
+    "longitude": "36.37575510"
+  },
+  "Japan": {
+    "flag": "🇯🇵",
+    "code": "JP",
+    "latitude": "37.51848822",
+    "longitude": "137.67066061"
+  },
+  "Kenya": {
+    "flag": "🇰🇪",
+    "code": "KE",
+    "latitude": "0.19582452",
+    "longitude": "37.97212297"
+  },
+  "Kyrgyzstan": {
+    "flag": "🇰🇬",
+    "code": "KG",
+    "latitude": "41.11509878",
+    "longitude": "74.25524574"
+  },
+  "Cambodia": {
+    "flag": "🇰🇭",
+    "code": "KH",
+    "latitude": "12.83288883",
+    "longitude": "104.84814273"
+  },
+  "Kiribati": {
+    "flag": "🇰🇮",
+    "code": "KI",
+    "latitude": "1.87085244",
+    "longitude": "-157.36259310"
+  },
+  "Comoros": {
+    "flag": "🇰🇲",
+    "code": "KM",
+    "latitude": "-11.64529989",
+    "longitude": "43.33330200"
+  },
+  "Saint Kitts and Nevis": {
+    "flag": "🇰🇳",
+    "code": "KN",
+    "latitude": "17.33453669",
+    "longitude": "-62.76411725"
+  },
+  "North Korea": {
+    "flag": "🇰🇵",
+    "code": "KP",
+    "latitude": "40.00785500",
+    "longitude": "127.48812834"
+  },
+  "Korea, South": {
+    "flag": "🇰🇷",
+    "code": "KR",
+    "latitude": "36.56344139",
+    "longitude": "127.51424646"
+  },
+  "Kuwait": {
+    "flag": "🇰🇼",
+    "code": "KW",
+    "latitude": "29.43253341",
+    "longitude": "47.71798405"
+  },
+  "Cayman Islands": {
+    "flag": "🇰🇾",
+    "code": "KY",
+    "latitude": "19.31322102",
+    "longitude": "-81.25459800"
+  },
+  "Kazakhstan": {
+    "flag": "🇰🇿",
+    "code": "KZ",
+    "latitude": "45.38592596",
+    "longitude": "68.81334444"
+  },
+  "Lao People's Democratic Republic": {
+    "flag": "🇱🇦",
+    "code": "LA",
+    "latitude": "17.76075593",
+    "longitude": "103.61611347"
+  },
+  "Lebanon": {
+    "flag": "🇱🇧",
+    "code": "LB",
+    "latitude": "34.08249284",
+    "longitude": "35.66454309"
+  },
+  "Saint Lucia": {
+    "flag": "🇱🇨",
+    "code": "LC",
+    "latitude": "13.90938495",
+    "longitude": "-60.97889500"
+  },
+  "Liechtenstein": {
+    "flag": "🇱🇮",
+    "code": "LI",
+    "latitude": "47.16587383",
+    "longitude": "9.55537700"
+  },
+  "Sri Lanka": {
+    "flag": "🇱🇰",
+    "code": "LK",
+    "latitude": "7.61264985",
+    "longitude": "80.83772497"
+  },
+  "Liberia": {
+    "flag": "🇱🇷",
+    "code": "LR",
+    "latitude": "6.44154681",
+    "longitude": "-9.39103485"
+  },
+  "Lesotho": {
+    "flag": "🇱🇸",
+    "code": "LS",
+    "latitude": "-29.60303205",
+    "longitude": "28.23361200"
+  },
+  "Lithuania": {
+    "flag": "🇱🇹",
+    "code": "LT",
+    "latitude": "55.25095948",
+    "longitude": "23.80987587"
+  },
+  "Luxembourg": {
+    "flag": "🇱🇺",
+    "code": "LU",
+    "latitude": "49.81327712",
+    "longitude": "6.12958700"
+  },
+  "Latvia": {
+    "flag": "🇱🇻",
+    "code": "LV",
+    "latitude": "56.86697515",
+    "longitude": "24.54826936"
+  },
+  "Libya": {
+    "flag": "🇱🇾",
+    "code": "LY",
+    "latitude": "27.06902914",
+    "longitude": "18.19513987"
+  },
+  "Morocco": {
+    "flag": "🇲🇦",
+    "code": "MA",
+    "latitude": "31.95441758",
+    "longitude": "-7.26839325"
+  },
+  "Monaco": {
+    "flag": "🇲🇨",
+    "code": "MC",
+    "latitude": "43.70463620",
+    "longitude": "6.75444978"
+  },
+  "Moldova": {
+    "flag": "🇲🇩",
+    "code": "MD",
+    "latitude": "47.10710437",
+    "longitude": "28.54018109"
+  },
+  "Montenegro": {
+    "flag": "🇲🇪",
+    "code": "ME",
+    "latitude": "42.71699590",
+    "longitude": "19.09699321"
+  },
+  "Saint Martin (French Part)": {
+    "flag": "🇲🇫",
+    "code": "MF",
+    "latitude": "18.07637107",
+    "longitude": "-63.05019106"
+  },
+  "Madagascar": {
+    "flag": "🇲🇬",
+    "code": "MG",
+    "latitude": "-19.79858543",
+    "longitude": "46.97898228"
+  },
+  "Marshall Islands": {
+    "flag": "🇲🇭",
+    "code": "MH",
+    "latitude": "7.30130732",
+    "longitude": "168.75512619"
+  },
+  "North Macedonia": {
+    "flag": "🇲🇰",
+    "code": "MK",
+    "latitude": "41.60059479",
+    "longitude": "21.74527900"
+  },
+  "Mali": {
+    "flag": "🇲🇱",
+    "code": "ML",
+    "latitude": "17.69385811",
+    "longitude": "-1.96368730"
+  },
+  "Myanmar": {
+    "flag": "🇲🇲",
+    "code": "MM",
+    "latitude": "19.20985380",
+    "longitude": "96.54949272"
+  },
+  "Mongolia": {
+    "flag": "🇲🇳",
+    "code": "MN",
+    "latitude": "46.80556270",
+    "longitude": "104.30808978"
+  },
+  "Macao": {
+    "flag": "🇲🇴",
+    "code": "MO",
+    "latitude": "22.19872287",
+    "longitude": "113.54387700"
+  },
+  "Northern Mariana Islands": {
+    "flag": "🇲🇵",
+    "code": "MP",
+    "latitude": "15.09783636",
+    "longitude": "145.67390000"
+  },
+  "Martinique": {
+    "flag": "🇲🇶",
+    "code": "MQ",
+    "latitude": "14.64128045",
+    "longitude": "-61.02417600"
+  },
+  "Mauritania": {
+    "flag": "🇲🇷",
+    "code": "MR",
+    "latitude": "20.28331239",
+    "longitude": "-10.21573334"
+  },
+  "Montserrat": {
+    "flag": "🇲🇸",
+    "code": "MS",
+    "latitude": "16.74774077",
+    "longitude": "-62.18736600"
+  },
+  "Malta": {
+    "flag": "🇲🇹",
+    "code": "MT",
+    "latitude": "35.89706403",
+    "longitude": "14.43687877"
+  },
+  "Mauritius": {
+    "flag": "🇲🇺",
+    "code": "MU",
+    "latitude": "-20.28368188",
+    "longitude": "57.56588291"
+  },
+  "Maldives": {
+    "flag": "🇲🇻",
+    "code": "MV",
+    "latitude": "-0.64224221",
+    "longitude": "73.13373313"
+  },
+  "Malawi": {
+    "flag": "🇲🇼",
+    "code": "MW",
+    "latitude": "-12.48684092",
+    "longitude": "34.14223524"
+  },
+  "Mexico": {
+    "flag": "🇲🇽",
+    "code": "MX",
+    "latitude": "22.92036676",
+    "longitude": "-102.33305344"
+  },
+  "Malaysia": {
+    "flag": "🇲🇾",
+    "code": "MY",
+    "latitude": "4.97345793",
+    "longitude": "106.54609050"
+  },
+  "Mozambique": {
+    "flag": "🇲🇿",
+    "code": "MZ",
+    "latitude": "-19.07617816",
+    "longitude": "33.81570282"
+  },
+  "Namibia": {
+    "flag": "🇳🇦",
+    "code": "NA",
+    "latitude": "-22.70965620",
+    "longitude": "16.72161918"
+  },
+  "New Caledonia": {
+    "flag": "🇳🇨",
+    "code": "NC",
+    "latitude": "-21.26104020",
+    "longitude": "165.58783760"
+  },
+  "Niger": {
+    "flag": "🇳🇪",
+    "code": "NE",
+    "latitude": "17.23446679",
+    "longitude": "8.23547860"
+  },
+  "Norfolk Island": {
+    "flag": "🇳🇫",
+    "code": "NF",
+    "latitude": "-29.02801043",
+    "longitude": "167.94303023"
+  },
+  "Nigeria": {
+    "flag": "🇳🇬",
+    "code": "NG",
+    "latitude": "9.02165273",
+    "longitude": "7.82933373"
+  },
+  "Nicaragua": {
+    "flag": "🇳🇮",
+    "code": "NI",
+    "latitude": "12.91806226",
+    "longitude": "-84.82270352"
+  },
+  "Netherlands": {
+    "flag": "🇳🇱",
+    "code": "NL",
+    "latitude": "52.33939951",
+    "longitude": "4.98914998"
+  },
+  "Norway": {
+    "flag": "🇳🇴",
+    "code": "NO",
+    "latitude": "65.04680297",
+    "longitude": "13.50069228"
+  },
+  "Nepal": {
+    "flag": "🇳🇵",
+    "code": "NP",
+    "latitude": "28.28430770",
+    "longitude": "83.98119373"
+  },
+  "Nauru": {
+    "flag": "🇳🇷",
+    "code": "NR",
+    "latitude": "-0.52586763",
+    "longitude": "166.93270463"
+  },
+  "Niue": {
+    "flag": "🇳🇺",
+    "code": "NU",
+    "latitude": "-19.04976362",
+    "longitude": "-169.86585571"
+  },
+  "New Zealand": {
+    "flag": "🇳🇿",
+    "code": "NZ",
+    "latitude": "-40.95025298",
+    "longitude": "171.76586181"
+  },
+  "Oman": {
+    "flag": "🇴🇲",
+    "code": "OM",
+    "latitude": "20.69906846",
+    "longitude": "56.69230596"
+  },
+  "Panama": {
+    "flag": "🇵🇦",
+    "code": "PA",
+    "latitude": "8.52135102",
+    "longitude": "-80.04603702"
+  },
+  "Peru": {
+    "flag": "🇵🇪",
+    "code": "PE",
+    "latitude": "-8.50205247",
+    "longitude": "-76.15772412"
+  },
+  "French Polynesia": {
+    "flag": "🇵🇫",
+    "code": "PF",
+    "latitude": "-17.66243898",
+    "longitude": "-149.40683900"
+  },
+  "Papua New Guinea": {
+    "flag": "🇵🇬",
+    "code": "PG",
+    "latitude": "-6.62414046",
+    "longitude": "144.44993477"
+  },
+  "Philippines": {
+    "flag": "🇵🇭",
+    "code": "PH",
+    "latitude": "12.82361200",
+    "longitude": "121.77401700"
+  },
+  "Pakistan": {
+    "flag": "🇵🇰",
+    "code": "PK",
+    "latitude": "29.90335974",
+    "longitude": "70.34487986"
+  },
+  "Poland": {
+    "flag": "🇵🇱",
+    "code": "PL",
+    "latitude": "52.10117636",
+    "longitude": "19.33190957"
+  },
+  "Saint Pierre and Miquelon": {
+    "flag": "🇵🇲",
+    "code": "PM",
+    "latitude": "46.88469499",
+    "longitude": "-56.31590200"
+  },
+  "Pitcairn": {
+    "flag": "🇵🇳",
+    "code": "PN",
+    "latitude": "-24.37673925",
+    "longitude": "-128.32423730"
+  },
+  "Puerto Rico": {
+    "flag": "🇵🇷",
+    "code": "PR",
+    "latitude": "18.21963053",
+    "longitude": "-66.59015100"
+  },
+  "Palestinian Territory": {
+    "flag": "🇵🇸",
+    "code": "PS",
+    "latitude": "32.26367103",
+    "longitude": "35.21936714"
+  },
+  "Portugal": {
+    "flag": "🇵🇹",
+    "code": "PT",
+    "latitude": "39.44879136",
+    "longitude": "-8.03768042"
+  },
+  "Palau": {
+    "flag": "🇵🇼",
+    "code": "PW",
+    "latitude": "7.49856307",
+    "longitude": "134.57291496"
+  },
+  "Paraguay": {
+    "flag": "🇵🇾",
+    "code": "PY",
+    "latitude": "-23.38564782",
+    "longitude": "-58.29551057"
+  },
+  "Qatar": {
+    "flag": "🇶🇦",
+    "code": "QA",
+    "latitude": "25.24551555",
+    "longitude": "51.24431480"
+  },
+  "Réunion": {
+    "flag": "🇷🇪",
+    "code": "RE",
+    "latitude": "-21.11480084",
+    "longitude": "55.53638200"
+  },
+  "Romania": {
+    "flag": "🇷🇴",
+    "code": "RO",
+    "latitude": "45.56450023",
+    "longitude": "25.21945155"
+  },
+  "Serbia": {
+    "flag": "🇷🇸",
+    "code": "RS",
+    "latitude": "44.06736041",
+    "longitude": "20.29725084"
+  },
+  "Russia": {
+    "flag": "🇷🇺",
+    "code": "RU",
+    "latitude": "57.96812298",
+    "longitude": "102.41837137"
+  },
+  "Rwanda": {
+    "flag": "🇷🇼",
+    "code": "RW",
+    "latitude": "-1.98589079",
+    "longitude": "29.94255855"
+  },
+  "Saudi Arabia": {
+    "flag": "🇸🇦",
+    "code": "SA",
+    "latitude": "24.16687314",
+    "longitude": "42.88190638"
+  },
+  "Solomon Islands": {
+    "flag": "🇸🇧",
+    "code": "SB",
+    "latitude": "-9.64554280",
+    "longitude": "160.15619400"
+  },
+  "Seychelles": {
+    "flag": "🇸🇨",
+    "code": "SC",
+    "latitude": "-4.68053204",
+    "longitude": "55.49061371"
+  },
+  "Sudan": {
+    "flag": "🇸🇩",
+    "code": "SD",
+    "latitude": "7.91320803",
+    "longitude": "30.15342434"
+  },
+  "Sweden": {
+    "flag": "🇸🇪",
+    "code": "SE",
+    "latitude": "61.42370427",
+    "longitude": "16.73188991"
+  },
+  "Singapore": {
+    "flag": "🇸🇬",
+    "code": "SG",
+    "latitude": "1.33873261",
+    "longitude": "103.83323559"
+  },
+  "Saint Helena, Ascension and Tristan Da Cunha": {
+    "flag": "🇸🇭",
+    "code": "SH",
+    "latitude": "-37.10521846",
+    "longitude": "-12.27768580"
+  },
+  "Slovenia": {
+    "flag": "🇸🇮",
+    "code": "SI",
+    "latitude": "46.14315048",
+    "longitude": "14.99546300"
+  },
+  "Svalbard and Jan Mayen": {
+    "flag": "🇸🇯",
+    "code": "SJ",
+    "latitude": "77.92215764",
+    "longitude": "18.99010622"
+  },
+  "Slovakia": {
+    "flag": "🇸🇰",
+    "code": "SK",
+    "latitude": "48.66923253",
+    "longitude": "19.75396564"
+  },
+  "Sierra Leone": {
+    "flag": "🇸🇱",
+    "code": "SL",
+    "latitude": "8.45575589",
+    "longitude": "-11.93368759"
+  },
+  "San Marino": {
+    "flag": "🇸🇲",
+    "code": "SM",
+    "latitude": "43.94223356",
+    "longitude": "12.45777700"
+  },
+  "Senegal": {
+    "flag": "🇸🇳",
+    "code": "SN",
+    "latitude": "14.43579003",
+    "longitude": "-14.68306489"
+  },
+  "Somalia": {
+    "flag": "🇸🇴",
+    "code": "SO",
+    "latitude": "2.87224619",
+    "longitude": "45.27676444"
+  },
+  "Suriname": {
+    "flag": "🇸🇷",
+    "code": "SR",
+    "latitude": "4.26470865",
+    "longitude": "-55.93988238"
+  },
+  "South Sudan": {
+    "flag": "🇸🇸",
+    "code": "SS",
+    "latitude": "7.91320803",
+    "longitude": "30.15342434"
+  },
+  "Sao Tome and Principe": {
+    "flag": "🇸🇹",
+    "code": "ST",
+    "latitude": "0.23381910",
+    "longitude": "6.59935809"
+  },
+  "El Salvador": {
+    "flag": "🇸🇻",
+    "code": "SV",
+    "latitude": "13.79043561",
+    "longitude": "-88.89652800"
+  },
+  "Sint Maarten (Dutch Part)": {
+    "flag": "🇸🇽",
+    "code": "SX",
+    "latitude": "18.04433885",
+    "longitude": "-63.05616320"
+  },
+  "Syrian Arab Republic": {
+    "flag": "🇸🇾",
+    "code": "SY",
+    "latitude": "34.71097430",
+    "longitude": "38.66723516"
+  },
+  "Swaziland": {
+    "flag": "🇸🇿",
+    "code": "SZ",
+    "latitude": "-26.53892570",
+    "longitude": "31.47960891"
+  },
+  "Turks and Caicos Islands": {
+    "flag": "🇹🇨",
+    "code": "TC",
+    "latitude": "21.72816866",
+    "longitude": "-71.79654471"
+  },
+  "Chad": {
+    "flag": "🇹🇩",
+    "code": "TD",
+    "latitude": "14.80342407",
+    "longitude": "18.78714064"
+  },
+  "French Southern Territories": {
+    "flag": "🇹🇫",
+    "code": "TF",
+    "latitude": "-49.27235903",
+    "longitude": "69.34856300"
+  },
+  "Togo": {
+    "flag": "🇹🇬",
+    "code": "TG",
+    "latitude": "8.68089206",
+    "longitude": "0.86049757"
+  },
+  "Thailand": {
+    "flag": "🇹🇭",
+    "code": "TH",
+    "latitude": "14.60009810",
+    "longitude": "101.38805881"
+  },
+  "Tajikistan": {
+    "flag": "🇹🇯",
+    "code": "TJ",
+    "latitude": "38.68075124",
+    "longitude": "71.23215769"
+  },
+  "Tokelau": {
+    "flag": "🇹🇰",
+    "code": "TK",
+    "latitude": "-9.16682644",
+    "longitude": "-171.83981693"
+  },
+  "Timor-Leste": {
+    "flag": "🇹🇱",
+    "code": "TL",
+    "latitude": "-8.88926365",
+    "longitude": "125.99671404"
+  },
+  "Turkmenistan": {
+    "flag": "🇹🇲",
+    "code": "TM",
+    "latitude": "38.94915421",
+    "longitude": "59.06190323"
+  },
+  "Tunisia": {
+    "flag": "🇹🇳",
+    "code": "TN",
+    "latitude": "33.88431940",
+    "longitude": "9.71878341"
+  },
+  "Tonga": {
+    "flag": "🇹🇴",
+    "code": "TO",
+    "latitude": "-21.17890075",
+    "longitude": "-175.19824200"
+  },
+  "Turkey": {
+    "flag": "🇹🇷",
+    "code": "TR",
+    "latitude": "38.27069555",
+    "longitude": "36.28703317"
+  },
+  "Trinidad and Tobago": {
+    "flag": "🇹🇹",
+    "code": "TT",
+    "latitude": "10.43241863",
+    "longitude": "-61.22250300"
+  },
+  "Tuvalu": {
+    "flag": "🇹🇻",
+    "code": "TV",
+    "latitude": "-8.45968122",
+    "longitude": "179.13310944"
+  },
+  "Taiwan*": {
+    "flag": "🇹🇼",
+    "code": "TW",
+    "latitude": "23.71891402",
+    "longitude": "121.10884043"
+  },
+  "Tanzania": {
+    "flag": "🇹🇿",
+    "code": "TZ",
+    "latitude": "-6.37551085",
+    "longitude": "34.85587302"
+  },
+  "Ukraine": {
+    "flag": "🇺🇦",
+    "code": "UA",
+    "latitude": "48.89358596",
+    "longitude": "31.10516920"
+  },
+  "Uganda": {
+    "flag": "🇺🇬",
+    "code": "UG",
+    "latitude": "1.54760620",
+    "longitude": "32.44409759"
+  },
+  "United States Minor Outlying Islands": {
+    "flag": "🇺🇲",
+    "code": "UM",
+    "latitude": "19.46305694",
+    "longitude": "177.98631092"
+  },
+  "US": {
+    "flag": "🇺🇸",
+    "code": "US",
+    "latitude": "37.66895362",
+    "longitude": "-102.39256450"
+  },
+  "Uruguay": {
+    "flag": "🇺🇾",
+    "code": "UY",
+    "latitude": "-32.49342987",
+    "longitude": "-55.76583300"
+  },
+  "Uzbekistan": {
+    "flag": "🇺🇿",
+    "code": "UZ",
+    "latitude": "41.30829147",
+    "longitude": "62.62970960"
+  },
+  "Holy See": {
+    "flag": "🇻🇦",
+    "code": "VA",
+    "latitude": "41.90377810",
+    "longitude": "12.45340142"
+  },
+  "Saint Vincent and The Grenadines": {
+    "flag": "🇻🇨",
+    "code": "VC",
+    "latitude": "13.25276143",
+    "longitude": "-61.19709800"
+  },
+  "Venezuela": {
+    "flag": "🇻🇪",
+    "code": "VE",
+    "latitude": "5.98477766",
+    "longitude": "-65.94152264"
+  },
+  "Virgin Islands, British": {
+    "flag": "🇻🇬",
+    "code": "VG"
+  },
+  "Virgin Islands, U.S.": {
+    "flag": "🇻🇮",
+    "code": "VI",
+    "latitude": "17.67004187",
+    "longitude": "-64.77411010"
+  },
+  "Vietnam": {
+    "flag": "🇻🇳",
+    "code": "VN",
+    "latitude": "17.19931699",
+    "longitude": "107.14012804"
+  },
+  "Vanuatu": {
+    "flag": "🇻🇺",
+    "code": "VU",
+    "latitude": "-15.37256614",
+    "longitude": "166.95916000"
+  },
+  "Wallis and Futuna": {
+    "flag": "🇼🇫",
+    "code": "WF",
+    "latitude": "-14.29378486",
+    "longitude": "-178.11649800"
+  },
+  "Samoa": {
+    "flag": "🇼🇸",
+    "code": "WS",
+    "latitude": "-14.30634641",
+    "longitude": "-170.69501750"
+  },
+  "Kosovo": {
+    "flag": "🇽🇰",
+    "code": "XK"
+  },
+  "Yemen": {
+    "flag": "🇾🇪",
+    "code": "YE",
+    "latitude": "15.60865453",
+    "longitude": "47.60453676"
+  },
+  "Mayotte": {
+    "flag": "🇾🇹",
+    "code": "YT",
+    "latitude": "-12.82744522",
+    "longitude": "45.16624200"
+  },
+  "South Africa": {
+    "flag": "🇿🇦",
+    "code": "ZA",
+    "latitude": "-27.17706863",
+    "longitude": "24.50856092"
+  },
+  "Zambia": {
+    "flag": "🇿🇲",
+    "code": "ZM",
+    "latitude": "-13.01812188",
+    "longitude": "28.33274444"
+  },
+  "Zimbabwe": {
+    "flag": "🇿🇼",
+    "code": "ZW",
+    "latitude": "-19.00784952",
+    "longitude": "30.18758584"
+  }
+}

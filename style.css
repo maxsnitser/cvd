@@ -1,0 +1,430 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4ls0rv');
+  src:  url('fonts/icomoon.eot?4ls0rv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4ls0rv') format('truetype'),
+    url('fonts/icomoon.woff?4ls0rv') format('woff'),
+    url('fonts/icomoon.svg?4ls0rv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+h1,h2,h3,h4,p,a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+:root {
+	--font: 'Baloo Thambi 2', sans-serif;
+	--dark: #333;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--font);
+	color: var(--dark);
+}
+h2 {
+	font: 600 36px/1.2em var(--font);
+}
+header {
+	padding: 0 20px;
+	width: calc(100% - 40px);
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+header h1 {
+	font-size: 1.2em;
+}
+header h1 span {
+	font: 500 13px/1.2em var(--font);
+	color: rgba(0,0,0,0.9);
+}
+header nav ul li {
+	display: inline-block;
+}
+header a {
+	margin: 0 20px;
+	text-decoration: underline;
+	font-weight: 500;
+	color: var(--dark);
+}
+footer {
+	margin-top: 100px;
+	height: 50px;
+	text-align: center;
+}
+footer a {
+	text-decoration: underline;
+	color: var(--dark);
+}
+footer a:hover {
+	text-decoration: none;
+}
+.list-map {
+	position: relative;
+	width: 100%;
+	height: 680px;
+	overflow: hidden;
+}
+.list-map .data-list.active {
+	width: 30%;
+	height: 100%;
+	background: #fff;
+}
+.list-map .data-list.active + #map {
+	width: 70%;
+}
+#map {
+	position: absolute;
+	top: 0;
+    right: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	background: #ccc;
+}
+section {
+	margin: 50px auto;
+	max-width: 1200px;
+}
+section.list-map {
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+}
+section.map-data-source {
+	margin: 0;
+	padding-top: 10px;
+	width: 100%;
+	max-width: 100%;
+	height: 30px;
+	font: 400 13px/1.3em var(--font);
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+}
+
+.share {
+	margin: 30px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.share div {
+	margin-right: 10px;
+}
+
+/*.marker {
+	display: table;
+	padding: 2px;
+	width: 20px;
+	height: 20px;
+	background: rgba(255,0,0,1);
+	border-radius: 50%;
+}
+.marker span {
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+}*/
+.marker {
+	padding: 0 10px;
+	min-width: 20px;
+	height: 20px;
+	border: 0.5px solid #fff;
+	border-radius: 10px;
+
+}
+.marker span {
+	display: block;
+	height: 100%;
+	font: 6	00 11px/20px var(--font);
+	color: #fff;
+	text-align: center;
+}
+.date-label {
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	font: 600 16px/1.2em var(--font);
+	color: var(--dark);
+	z-index: 2;
+}
+.slider-name {
+	position: absolute;
+	top: 16px;
+	right: 430px;
+	font: 600 16px/1.2em var(--font);
+	text-align: right;
+	color: rgba(0,0,0,0.4);
+	z-index: 2;
+}
+
+.marker[data-color="green"] {
+	background: green;
+	color: white;
+}
+.marker[data-color="yellow"] {
+	background: yellow;
+}
+.marker[data-color="yellow"] span {
+	color: var(--dark);
+}
+.marker[data-color="orange"] {
+	background: orange;
+	color: white;
+}
+.marker[data-color="red"] {
+	background: red;
+	color: white;
+}
+
+
+
+
+#custom-handle {
+	display: none;
+	cursor: grab;
+	margin-top: -8px;
+    width: 26px;
+    height: 26px;
+	background: #FFF;
+    border-radius: 8px;
+    border:0.5px solid rgba(0,0,0,0.3);
+	box-shadow:
+		0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+		0 12.5px 10px rgba(0, 0, 0, 0.035),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+		0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+		0 100px 80px rgba(0, 0, 0, 0.07);
+	outline: none;
+}
+#custom-handle:active {
+	cursor: grabbing;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+	position: absolute;
+    top: 19px;
+    right: 160px;
+	width: 260px;
+    height: 16px;
+    /*background: rgba(0,0,0,0.2);*/
+    z-index: 2;
+    
+}
+.ui-slider::after {
+	content: '';
+	position: relative;
+	display: block;
+	width: 280px;
+	height: 12px;
+	background: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	z-index: 0;
+} 
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+	-ms-touch-action: none;
+	touch-action: none;
+	background: #ccc;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+
+
+.todo-cards {
+	width: 100%;
+	display: flex;
+	/*flex-direction: row;*/
+	flex-wrap: wrap;
+	/*justify-content: flex-start;*/
+	/*align-content: flex-start;*/
+}
+.todo h2 {
+	width: 100%;
+	margin: 60px 0 20px 0;
+}
+.todo-card {
+	position: relative;
+	margin: 0 20px 20px 0;
+	padding: 30px 30px 30px 110px;
+	/*width: 220px;*/
+	/*flex-basis: 220px;*/
+	height: 100px;
+	background: #FEDD00;
+	border-radius: 8px;
+}
+.todo-card.small {
+	width: 140px;
+}
+.todo-card.medium {
+	width: 220px;
+}
+.todo-card.large {
+	width: 400px;
+}
+.todo-card.orange {
+	background: #FF6C2F;
+}
+.todo-card.red {
+	background: #F88F58;
+}
+.todo-card span {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	display: block;
+	font-size: 64px;
+	color: var(--dark);
+}
+.todo-card h3 {
+	font: 600 20px/1.2em var(--font);
+	color: var(--dark);
+}
+.todo-card p {
+	font: 400 16px/1.3em var(--font);
+	color: var(--dark);
+}
+
+
+.icon-face-touch:before {
+	content: "\e901";
+}
+.icon-cancel-travel:before {
+	content: "\e902";
+}
+.icon-cover-mouth:before {
+	content: "\e903";
+}
+.icon-crowd:before {
+	content: "\e904";
+}
+.icon-hand-wash:before {
+	content: "\e900";
+}
+.icon-home-delivery:before {
+	content: "\e905";
+}
+.icon-stay-home:before {
+	content: "\e906";
+}
+.icon-thermometer:before {
+	content: "\e907";
+}
+.icon-wipe:before {
+	content: "\e908";
+}
+.icon-wipe:before {
+	content: "\e908";
+}
+.icon-work-home:before {
+	content: "\e909";
+}
+
+@media screen and (max-width: 960px) {
+	section {
+		width: calc(100% - 60px);
+	}
+	.todo-card:nth-of-type(2n) {
+		margin-right: 0;
+	}
+    .todo-card.small,
+    .todo-card.medium,
+    .todo-card.large {
+		width: calc(50% - 150px);
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header h1 {
+		font-size: 16px;
+	}
+	header h1 span {
+		font: 500 12px/1.2em var(--font);
+		color: rgba(0,0,0,0.5);
+	}
+	header a {
+		margin: 0 15px;
+	}
+	section {
+		width: calc(100% - 30px);
+	}
+	h2 {
+		text-align: center;
+	}
+	.todo-card {
+    	margin: 0 15px 15px 0;
+	}
+	.todo-card,
+	.todo-card.small,
+    .todo-card.medium,
+    .todo-card.large {
+		padding: 20px;
+		width: calc(50% - 48px);
+		height: auto;
+	}
+	.todo-card span {
+		position: relative;
+		top: 0;
+		left: 0;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.todo-card h3 {
+		margin-bottom: 5px;
+		font: 600 17px/1.2em var(--font);
+	}
+	.todo-card p {
+		font: 400 15px/1.3em var(--font);
+	}
+	.slider-name, #slider, #custom-handle {
+		display: none;
+	}
+	section.map-data-source {
+		padding: 10px;
+    	width: calc(100% - 20px);
+	}
+	.share {
+		justify-content: center;
+	}
+}
